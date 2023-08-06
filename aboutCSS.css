@@ -1,0 +1,77 @@
+/* Apply font and background gradient to the entire HTML document */
+html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #84daf5, #89ffff, #affffa, #ffffff);
+  }
+  /* Set margin for the body */
+  body {
+    margin 1rem, 5rem;
+  }
+/* Center align the heading and apply text shadow */
+  h1{
+    text-align:center;
+    text-shadow:1px 1px 3px grey;
+  }
+/* Set font size for paragraphs and list items */
+  p, li {
+    font-size: 20px
+  }
+/* Add padding to the ordered list */
+  ol{
+    padding: 20px;
+  }
+
+  ol li{
+    padding: 10px 0;
+  }
+
+  img{
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,.5)
+  }
+
+  footer{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+  }
+
+
+  .navbar{
+    display:flex;
+    justify-content: space between;
+    align-items: center;
+    background-color: #333;
+    color: white
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: block;
+  }
+  
+  .navbar-links li:hover{
+    background-color: #555;
+  }
+
+  .img-div{
+    dislay: flex:
+    flex-wrap: wrap;
+    justify-content: space-around
+  }
+
+  .steps-to-create-div{
+    max width: 800px;
+    margin: 5rem auto;
+    color: rgb(253,197,132);
+    padding: 1rem 2rem;
+    background-color: rgb(0,58,66);
+    border-radius: 1rem;
+  }
+
+  .steps-to-create-div h2{
+    text-align:center;
+    margin: 1rem auto;
+    font-weight: lighter;
+  }
